@@ -1,0 +1,56 @@
+.formobile {
+    display: flex;
+    justify-content: right;
+    display: none;
+}
+
+.arrows {
+    display: flex;
+    background-color: #e4e4e4;
+    border: none;
+    color: #222222;
+    padding: 2px;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+
+    .arrow_down {
+        padding-top: 8px;
+        height: 19px;
+        width: 17px;
+    }
+
+    .arrow_up {
+        padding-top: 8px;
+        height: 19px;
+        width: 17px;
+    }
+}
+
+.arrows:hover {
+    background: rgba(34, 34, 34, 0.24);
+    transition: 0.2s all linear;
+}
+
+.icon2 {
+    height: 24px;
+    width: 24px;
+    padding-top: 2px;
+}
+
+.category_but {
+    background-color: #e4e4e4;
+    border: none;
+    color: #222222;
+    padding: 5px 8px;
+    margin: 6px 2px 4px 2px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.category_but:hover {
+    background: rgba(34, 34, 34, 0.24);
+    transition: 0.2s all linear;
+}

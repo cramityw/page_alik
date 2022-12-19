@@ -1,0 +1,43 @@
+/* Кнопки дял выбора обуви */
+.buttons {
+    display: flex;
+    white-space: nowrap;
+
+    .button {
+        background-color: #e4e4e4;
+        border: none;
+        color: #222222;
+        padding: 11px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+
+    .button1 {
+        border-radius: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    i {
+        border: solid black;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+    }
+
+    .down {
+        -webkit-transform: rotate(45deg);
+    }
+
+    .button:hover {
+        background: rgba(34, 34, 34, 0.24);
+        transition: 0.2s all linear;
+    }
+}
+
+/* /// */

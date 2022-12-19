@@ -1,0 +1,35 @@
+/* Поле для ввода цены */
+.field {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+
+    input {
+        border: none;
+        color: black;
+        padding: 10px;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 20px;
+        border: 2px solid rgba(34, 34, 34, 0.24);
+        text-align: left;
+        width: 115px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.price {
+    display: flex;
+    margin-bottom: 0px;
+    gap: 130px;
+
+    p {
+        margin-bottom: 2px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+
+/* /// */

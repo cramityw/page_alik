@@ -1,0 +1,98 @@
+/* Fake Store API */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-row-gap: 32px;
+    grid-column-gap: 16px;
+    text-align: center;
+
+    span {
+        margin-top: 3px;
+        margin-bottom: 15px;
+        text-align: left;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+    }
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 4px;
+
+    .dot_first {
+        height: 8px;
+        margin-left: 7px;
+        background-color: #222222;
+        border: none;
+        padding: 4px;
+        border-radius: 20px;
+    }
+
+    .dot {
+        height: 8px;
+        margin-left: 7px;
+        background-color: #e4e4e4;
+        border: none;
+        padding: 4px;
+        border-radius: 20px;
+    }
+}
+
+.store {
+    display: flex;
+    height: 20px;
+    align-items: flex-end;
+
+    .store_icon {
+        margin-right: 3px;
+        height: 16px;
+        width: 16px;
+    }
+
+    a {
+        color: #000;
+    }
+}
+
+.card {
+    img {
+        width: 213px;
+        height: 213px;
+        border-radius: 50px;
+    }
+
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-family: Inter_v3;
+        text-align: left;
+    }
+}
+
+.one_star {
+    display: flex;
+    gap: 7px;
+
+    img {
+        margin-top: 1px;
+        width: 14px;
+        height: 14px;
+    }
+
+    p {
+        margin: 0px;
+    }
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+/* /// */

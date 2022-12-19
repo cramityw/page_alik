@@ -1,0 +1,116 @@
+// Переменные, миксины, функции
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+
+// CSS-файлы библиотек
+@import "vendor/libs";
+
+// Основное
+@import "base/fonts";
+@import "base/general";
+
+// БЭМ-блоки
+@import "../blocks/modules";
+
+// Радиобатон цены
+@import "../blocks/modules/radiobutton_price/radiobutton_price.scss";
+
+// Кнопки для выбора категории обуви
+@import "../blocks/modules/buttons_category/buttons_category.scss";
+
+// Выпадающее меню
+@import "../blocks/modules/drop-down menu/drop-down menu.scss";
+
+// Чекбоксы
+@import "../blocks/modules/checkboxes/checkboxes.scss";
+
+// Радиобатоны категории обуви
+@import "../blocks/modules/radiobutton_category/radiobutton_category.scss";
+
+// Поле для ввода цены
+@import "../blocks/modules/price_field/price_field.scss";
+
+// Кнопки для мобильной версии
+@import "../blocks/modules/buttons_mobile/buttons_mobile.scss";
+
+// Адаптация под другие разрешения
+@import "../blocks/modules/adaptation/adaptation.scss";
+
+// Товары
+@import "../blocks/modules/products/products.scss";
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/inter.woff");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans.woff2");
+}
+
+@font-face {
+    font-family: Inter_v3;
+    src: url("../fonts/inter_v3.woff");
+}
+
+html,
+body {
+    font-family: Inter, OpenSans, sans-serif;
+    color: #000;
+    margin: 0px;
+    min-width: 290px;
+}
+
+.page {
+    margin: 0px 100px 0px 100px;
+}
+
+.result {
+    display: flex;
+    text-align: center;
+    gap: 4px;
+
+    h1 {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .mln {
+        color: rgb(143, 142, 142);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 54px 0px 54px;
+    padding: 0px 32px 16px 32px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 80px;
+    margin: 0px 55px 0px 55px;
+    padding: 40px 32px 40px 32px;
+}
+
+.all_section {
+    display: flex;
+    padding-bottom: 15px;
+
+    .arrow {
+        height: 16px;
+        width: 16px;
+        margin-right: 4px;
+    }
+
+    .sections {
+        color: #222222;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}

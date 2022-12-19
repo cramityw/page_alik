@@ -1,0 +1,44 @@
+/* Радиобатоны категории обуви*/
+.radiobutton1 {
+    label {
+        line-height: 5px;
+    }
+
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+
+        border: 2px solid rgba(34, 34, 34, 0.24);
+        transition: 0.2s all linear;
+        outline: none;
+
+        position: relative;
+        top: 4px;
+        margin-left: 0px;
+    }
+
+    input:checked {
+        border: 4px solid #cc290a;
+    }
+}
+
+.radiobut {
+    margin-left: 25px;
+
+    p {
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+}
+
+.radiobut1 p {
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+
+/* /// */
